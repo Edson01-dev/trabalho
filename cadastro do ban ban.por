@@ -58,7 +58,7 @@ programa
         soma = soma + idade[i]
           }
           real media
-          media = soma * 1.0 / total
+          media = soma  / total
         escreva("\nMédia das idades: ", media, "\n")
         }
       }
