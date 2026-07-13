@@ -3,14 +3,14 @@ programa
 
   funcao inicio()
   {
-	inteiro menu,i, soma = 0,idade[10],total = 0, opcao = 0
+	inteiro  soma = 0,idade[10],total = 0, opcao = 0
     cadeia nome[10],cidade[10]
     enquanto(opcao !=3)
     {
       escreva("\n cadastro\n ")
-      escreva(" 1Cadastrar cliente\n")
-      escreva(" 2Listar clientes\n")
-      escreva(" 3Sair\n")
+      escreva(" 1 Cadastrar cliente\n")
+      escreva(" 2 Listar clientes cadastrados\n")
+      escreva(" 3 Sair\n")
       escreva("Escolha uma opção:")
       leia(opcao)
       se(opcao == 1)
