@@ -8,12 +8,11 @@ programa
     enquanto(opcao !=3)
     {
       escreva("\n cadastro\n ")
-      escreva(" 1--> Cadastrar cliente\n")
-      escreva(" 2--> Listar clientes\n")
-      escreva(" 3--> Sair\n")
+      escreva(" 1Cadastrar cliente\n")
+      escreva(" 2Listar clientes\n")
+      escreva(" 3Sair\n")
       escreva("Escolha uma opção:")
       leia(opcao)
-
       se(opcao == 1)
       {
         se(total < 10)
@@ -28,7 +27,6 @@ programa
       leia(cidade[total])
 
         total++
-
       escreva("\nCliente cadastrado\n")
       }
 
@@ -47,7 +45,7 @@ programa
 
         senao
         {
-      escreva("\n===== LISTA DE CLIENTES =====\n")
+      escreva("\nLISTA DE CLIENTES \n")
 
           soma = 0
 
