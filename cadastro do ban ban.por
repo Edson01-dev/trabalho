@@ -7,7 +7,7 @@ programa
     cadeia nome[10],cidade[10]
     enquanto(opcao !=3)
     {
-      escreva("\n ----CADASTRO  DE  CLIENTES----\n ")
+      escreva("\n cadastro\n ")
       escreva(" 1--> Cadastrar cliente\n")
       escreva(" 2--> Listar clientes\n")
       escreva(" 3--> Sair\n")
@@ -29,12 +29,12 @@ programa
 
         total++
 
-      escreva("\nCliente cadastrado com sucesso!\n")
+      escreva("\nCliente cadastrado\n")
       }
 
       senao
         {
-      escreva("\nLimite de 10 clientes atingido!\n")
+      escreva("\nLimite de 10 clientes atingido\n")
         }
       }
 
